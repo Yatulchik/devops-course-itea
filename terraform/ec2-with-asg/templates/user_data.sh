@@ -1,4 +1,4 @@
 #!/bin/bash
 
-yum update
-yum install ${package_to_install}
+yum update -y
+yum install ${package_to_install} -y
